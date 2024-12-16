@@ -57,3 +57,8 @@ class Author:
         rows = cursor.fetchall()
         connection.close()
         return rows
+    
+    def __repr__(self):
+        return f"<Author id={self.id}, name={self.name}>"
+    
+
