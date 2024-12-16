@@ -1,4 +1,4 @@
-from database.connection import get_connection
+from database.connection import get_db_connection
 
 class Author:
     def __init__(self, id=None, name=None):
